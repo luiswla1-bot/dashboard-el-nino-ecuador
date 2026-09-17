@@ -83,7 +83,7 @@ if ocultar_sidebar:
         </style>
     """, unsafe_allow_html=True)
 
-SECCIONES = ["📈 Índice ONI", "🌧️ Precipitación en Vivo", "🌡️ Temp. Marina", "📍 Estaciones", "📊 Análisis"]
+SECCIONES = ["📈 Índice RONI", "🌧️ Precipitación en Vivo", "🌡️ Temp. Marina", "📍 Estaciones", "📊 Análisis"]
 
 # ============ AUTOREFRESH ============
 if modo_tv:
