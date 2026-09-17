@@ -276,7 +276,7 @@ elif seccion_actual == "🌡️ Temp. Marina":
     )
     fig_mapa.update_layout(
         geo=dict(scope='south america', projection_type='mercator',
-                 center=dict(lat=-2, lon=-80), lataxis_range=[-3.5, 1], lonaxis_range=[-92, -75]),
+                 center=dict(lat=-2, lon=-80), lataxis_range=[-8, 5], lonaxis_range=[-98, -70]),
         height=550
     )
     st.plotly_chart(fig_mapa, use_container_width=True)
