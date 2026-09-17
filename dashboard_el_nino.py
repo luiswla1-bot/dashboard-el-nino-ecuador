@@ -206,7 +206,7 @@ st.divider()
 
 # ============ SECCIÓN: ÍNDICE ONI ============
 if seccion_actual == "📈 Índice RONI":
-    st.subheader("Índice Relativo Oceánico Niño (RONI) - NOAA/CPC")
+    st.subheader("Índice Relativo Oceánico Niño (ONI) - NOAA/CPC")
     st.caption("Desde febrero de 2026, NOAA reemplazó el índice ONI tradicional por el RONI (mismos umbrales)")
     st.info("📌 RONI > 0.5°C = El Niño | RONI < -0.5°C = La Niña | -0.5 a 0.5 = Neutral")
 
