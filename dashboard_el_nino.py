@@ -104,7 +104,7 @@ def obtener_datos_simulados_estaciones():
 
 # ============ INTERFAZ PRINCIPAL ============
 st.title("🌊 Dashboard: Monitoreo del Fenómeno del Niño")
-st.subtitle("Costas de Ecuador - Datos en Tiempo Real")
+st.caption("Costas de Ecuador - Datos en Tiempo Real")
 
 # Fecha y hora de actualización
 col1, col2, col3 = st.columns(3)
