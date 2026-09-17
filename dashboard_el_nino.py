@@ -370,7 +370,7 @@ elif seccion_actual == "📊 Análisis":
     with col2:
         st.markdown("### 📊 Indicadores monitoreados")
         st.write("""
-        - Índice RONI (3 meses móvil)
+        - Índice RONI
         - Anomalía de TSM ecuatorial
         - Clima en vivo (Windy)
         - Estaciones oceanográficas del Ecuador
