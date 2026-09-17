@@ -369,7 +369,7 @@ elif seccion_actual == "📊 Análisis":
         fig_hist.add_trace(go.Scatter(x=hist['timestamp'], y=hist['tsm_promedio'], mode='lines+markers', name='TSM Promedio', yaxis='y2'))
         fig_hist.update_layout(
             height=350,
-            yaxis=dict(title="ONI (°C)"),
+            yaxis=dict(title="RONI (°C)"),
             yaxis2=dict(title="TSM (°C)", overlaying='y', side='right'),
             legend=dict(orientation='h')
         )
