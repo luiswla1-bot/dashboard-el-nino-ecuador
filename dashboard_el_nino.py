@@ -354,14 +354,14 @@ elif seccion_actual == "📊 Análisis":
     with col2:
         st.markdown("### 📊 Indicadores monitoreados")
         st.write("""
-        - Índice ONI (3 meses móvil)
+        - Índice RONI
         - Anomalía de TSM ecuatorial
         - Precipitación en vivo (Windy)
         - Estaciones oceanográficas del Ecuador
         """)
 
     st.divider()
-    st.markdown("### 📈 Histórico permanente (Google Sheets)")
+    st.markdown("### 📈 Histórico permanente")
     hist = leer_historico_sheets()
     if len(hist) > 1:
         fig_hist = go.Figure()
