@@ -81,7 +81,7 @@ def leer_historico_sheets():
 # ============ SIDEBAR: CONTROLES ============
 st.sidebar.header("⚙️ Configuración")
 
-modo_tv = st.sidebar.toggle("📺 Modo TV (rotación automática)", value=False)
+modo_tv = st.sidebar.toggle("📺 Pantalla completa (rotación automática)", value=False)
 intervalo_rotacion = st.sidebar.slider("Segundos por pestaña", 20, 180, 60, step=10)
 ocultar_sidebar = st.sidebar.checkbox("Ocultar esta barra al proyectar", value=st.session_state.sidebar_oculto)
 if ocultar_sidebar:
@@ -377,7 +377,7 @@ elif seccion_actual == "📊 Análisis":
         """)
 
     st.divider()
-    st.markdown("### 📈 Histórico permanente (Google Sheets)")
+    st.markdown("### 📈 Histórico")
     hist = leer_historico_sheets()
     if len(hist) > 1:
         fig_hist = go.Figure()
