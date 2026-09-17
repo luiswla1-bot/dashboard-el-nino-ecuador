@@ -72,7 +72,7 @@ def leer_historico_sheets():
 # ============ SIDEBAR: CONTROLES ============
 st.sidebar.header("⚙️ Configuración")
 
-modo_tv = st.sidebar.toggle("📺 Modo TV (rotación automática)", value=False)
+modo_tv = st.sidebar.toggle("📺 Modo Pantalla completa)", value=False)
 intervalo_rotacion = st.sidebar.slider("Segundos por pestaña", 20, 180, 60, step=10)
 ocultar_sidebar = st.sidebar.checkbox("Ocultar esta barra al proyectar", value=False)
 
