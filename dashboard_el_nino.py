@@ -276,7 +276,7 @@ if seccion_actual == "📈 Índice RONI":
 
 # ============ SECCIÓN: CLIMA EN VIVO ============
 elif seccion_actual == "🌦️ Clima en Vivo":
-    ALTURA_MAPA = 750
+    ALTURA_MAPA = 500
     windy_html = f"""
     <html>
     <head><style>html, body {{ margin:0; padding:0; height:{ALTURA_MAPA}px; }}</style></head>
