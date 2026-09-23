@@ -1,8 +1,0 @@
-streamlit
-pandas
-numpy
-requests
-plotly
-streamlit-autorefresh
-gspread
-google-auth
